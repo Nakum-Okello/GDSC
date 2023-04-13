@@ -1,0 +1,64 @@
+body {
+  background-image: url('https://images.pexels.com/photos/4144179/pexels-photo-4144179.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-size: cover;
+  background-position: center ;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  align-items: center;
+}
+.Signup{
+  backdrop-filter: blur(10px);
+    margin-top: 30px;
+    background-color: bisque;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+  .span{
+    color: rgb(187, 97, 18);
+    font-size: 50px;
+  }
+  form {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 24px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+input[type='password'] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5; /* Add background color here */
+}
+
+  
+  button[type='submit'] {
+    background-color: #0080ff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: ;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type='submit']:hover {
+    background-color: rgb(187, 97, 18);
+  }
+  
