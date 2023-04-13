@@ -9,7 +9,7 @@ const HomePage = () => {
         
         <div className="image-container">
         <h1>DSC Community <span>UCU</span></h1>
-          <img src='https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'/>
+          <img src='https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='images'/>
         </div>
         <div className="form-container">
           <form>
@@ -20,7 +20,7 @@ const HomePage = () => {
             </p>
             <p>
               <label htmlFor="participate">How to participate:</label>
-              <p > By joining DSC community UCU, you can participate in workshops, hackathons, and other tech events, collaborate on projects, and connect with other like-minded individuals who are passionate about using technology for good."></p>
+              <p > By joining DSC community UCU, you can participate in workshops, hackathons, and other tech events, collaborate on projects, and connect with other like-minded individuals who are passionate about using technology for good."</p>
             </p>
             <div>
               <Link to='/SignUp'>
